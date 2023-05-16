@@ -21,24 +21,24 @@ class Warrior:
         pass
 
 class Healer:
-    def healer_defense(self):
+    def defense(self):
         pass
 
-    def healer_move(self):
+    def move(self):
         pass
 
     def heal(self):
         pass
 
 class Tree:
-    def tree_defense(self):
+    def defense(self):
         pass
 
     def on_fire(self):
         pass
 
 class Trap:
-    def trap_attack(self):
+    def attack(self):
         print("It's a trap!")
 
 
